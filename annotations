@@ -1,0 +1,93 @@
+- Chocolatey: package management to install node js and other libraries
+
+	/ choco install OR cinst are the same command
+
+	/ choco intall nodejs-lts
+	/ cinst nodejs-lts
+
+- NPM: another package management (native from Node JS) used to install other libraries
+
+	/ node -v # shows the node version
+	/ npm -v # shows the npm version
+	/ choco -v # shows the chocolatey version
+
+-*-*-*-*
+
+\ Dracula Theme
+\ Material Icon Theme
+\ Browser Extension: Json Viewer
+
+-*-*-*-*
+
+\ Express: control routes and parameters
+	
+	/ npm install express
+
+\ React Native: it's like Ajax, but better
+\ Expo: includes mobile's native functionalities into the React (Android's and iOS's SDKs). It's a mobile app that you have to install in your phone
+
+\ NPX: it's like npm, but just executes the modules
+
+	/ npx create-react-app frontend
+
+
+-*-*-*-*-
+
+\ Insomnia: used to do tests in PUT, DELETE and POST HTTP Methods
+
+\ Nodemon: updates the server without having to restart it. You ALWAYS have to install it as a Dev Dependency (-D)
+
+	npm install nodemon -D
+
+	"scripts": {
+    	"start": "nodemon index.js"
+  	},
+
+  	npm start
+
+\ KnexJS: connect to SQL databases
+
+	npm install knex
+	npm install sqlite3
+	npx knex init
+
+	// development environment
+  	development: {
+    	client: 'sqlite3',
+    	connection: {
+      	filename: './src/database/db.sqlite'
+    	},
+    	migrations: {
+      	directory: './src/database/migrations'
+    	},
+    	useNullAsDefault: true,
+  	},
+
+\ KnexJS Migrations: log/history of all updates in the database schema
+
+	npx knex migrate:make migration_name
+	
+	npx knex migrate:latest // executes the migrations
+
+	npx knex migrate:rollback // undoes the last migration
+
+	npx knex migrate:status // lists all executed migrations
+
+\ Cors: security package that allows you to inform which websites can access your back-end
+
+	npm install cors
+
+-*-*-*-*-
+
+- Environment and Installations
+- Entidades (ONG and Incident)
+	
+	\ Sign in
+	\ Sign out
+	\ Sign up
+	\ Create Incidents
+	\ Delete Incidents
+	\ List Incidents
+
+	\ List all the Incidents
+	\ Send Message (WhatsApp and Email)
