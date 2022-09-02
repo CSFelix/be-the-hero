@@ -87,7 +87,11 @@
 
 \ Axios: Http provider that will create the communication between front and backend
 
-	npm install axios
+	npm install axios >> frontend and mobile
+
+\ INTL: package to format numbers to currency
+
+	npm install intl > mobile
 
 -*-*-*-*-
 
@@ -101,18 +105,29 @@
 
 -*-*-*-*-
 
-- Environment and Installations
-- Entidades (ONG and Incident)
-	
-	\ Sign in
-	\ Sign out
-	\ Sign up
-	\ Create Incidents
-	\ Delete Incidents
-	\ List Incidents
+- (cmd) Expo: simulate application in mobile
 
-	\ List all the Incidents
-	\ Send Message (WhatsApp and Email)
+	npm install -g expo-cli
+
+	expo init mobile >> blank template
+
+	expo install expo-constants
+
+	expo install expo-mail-composer >> send email
+
+- (cmd) Yarn: generates qr code to test your application in Expo
+
+	npm install --global yarn
+
+	yarn start
+
+- (cmd) React Navigation: manages routes in React Native applications
+
+	npm install @react-navigation/native
+
+	expo install react-native-screens react-native-safe-area-context
+
+	npm install @react-navigation/stack
 
 -*-*-*-*-
 
@@ -129,3 +144,19 @@
 - States: they're used when you have to update some Component's Contents without having to update the whole page (kinda like Ajax)
 
 - Imutability: all States can't have their values changed directly, which means you have to use a function called SetState to change their values
+
+-*-*-*-*-
+
+	******************
+	** React Native **
+	******************
+
+- Tags: <View>, <Text>
+
+- Style: StyleSheet
+
+- Display Flex is default!!
+
+- Properties: replace '-' by upper case letters and add quotes for each property value
+
+- Inherit: there is no property inherit in React Native
