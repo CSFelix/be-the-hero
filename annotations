@@ -77,6 +77,28 @@
 
 	npm install cors
 
+\ React Icons: icons to your application
+
+	npm install react-icons
+
+\ React Router Dom: used to control the Routes in the Front-End
+
+	npm install react-router-dom
+
+\ Axios: Http provider that will create the communication between front and backend
+
+	npm install axios
+
+-*-*-*-*-
+
+\ Git:
+
+	https://github.com/CSFelix/be-the-hero.git
+
+	git config --global user.name 'CSFelix'
+	
+	git config --global user.email 'csfelix08@gmail.com'
+
 -*-*-*-*-
 
 - Environment and Installations
@@ -91,3 +113,19 @@
 
 	\ List all the Incidents
 	\ Send Message (WhatsApp and Email)
+
+-*-*-*-*-
+
+	************************
+	** React's Components **
+	************************
+
+- Component: JavaScript that returns HTML tags. Tip: create a new Component for each part of HTML that you have to use in more than one page (this will make your job easier to do updates and fixes in the code)
+
+- JSX: HTML integrated inside a JavaScript file
+
+- Properties: it's like the attributes in HTML, but they are used when a Component should have a different content for each page it's imported
+
+- States: they're used when you have to update some Component's Contents without having to update the whole page (kinda like Ajax)
+
+- Imutability: all States can't have their values changed directly, which means you have to use a function called SetState to change their values
