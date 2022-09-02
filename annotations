@@ -160,3 +160,29 @@
 - Properties: replace '-' by upper case letters and add quotes for each property value
 
 - Inherit: there is no property inherit in React Native
+
+-*-*-*-*-
+
+	**************************
+	** Validation and Tests **
+	**************************
+
+- Celebrate: validates datas, integrating the JOI library within express library
+
+	npm intall celebrate
+
+We use Celebrate's validations in routes where we receive datas from the user, like Creates and Updates, and Deletes and Lists in some cases
+
+- Jet: TDD Test!!
+
+	npm install jest -D
+
+	npx jest --init >> 'yes' for scripts >> run in node >> 'no' for coverage report >> 'yes' for mock calls
+
+- Cross-env: applied to use databases for tests
+
+	npm install cross-env
+
+- Super-Test: it's like axios, but for test environment
+
+	npm install supertest -D
