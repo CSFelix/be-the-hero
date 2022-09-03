@@ -41,7 +41,7 @@ const routes = express.Router();
 *   - Headers: headers
 */
 
-// users reesource
+// users resource
 /*routes.get('/users', (request, response) => {
     // return response.send('Hello World!');
 
