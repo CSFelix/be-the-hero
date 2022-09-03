@@ -41,7 +41,7 @@ npm install nodemon -D
 - In `package.json` file, scripts section
 ```javascript
 "scripts": {
-    	"start": "nodemon index.js"
+    "start": "nodemon index.js"
  },
 ```
 
