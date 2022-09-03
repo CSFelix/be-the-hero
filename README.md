@@ -125,7 +125,7 @@ npm install cors
 
 - Installing
 ```
-npm intall celebrate
+npm install celebrate
 ```
 
 <br><br>
