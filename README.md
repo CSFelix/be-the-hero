@@ -29,6 +29,15 @@
 
 ### `⚙️ Run ⚙️`
 
+> **Express (_backend project_)**
+
+- Installing
+```
+npm install express
+```
+
+<br><br>
+
 > **Nodemon (_backend project_)**
 
 - Installing
