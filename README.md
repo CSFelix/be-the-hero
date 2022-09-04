@@ -209,15 +209,6 @@ npm install axios
 
 <br><br>
 
-> **INTL (_mobile project_)**
-
-- Installing
-```
-npm install intl
-```
-
-<br><br>
-
 > **Expo (_cmd in mobile project_)**
 
 - Installing
@@ -233,6 +224,15 @@ expo init mobile
 blank template
 expo install expo-constants
 expo install expo-mail-composer
+```
+
+<br><br>
+
+> **INTL (_mobile project_)**
+
+- Installing
+```
+npm install intl
 ```
 
 <br><br>
