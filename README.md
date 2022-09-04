@@ -173,6 +173,15 @@ npm install supertest -D
 
 <br><br>
 
+> **React Starting (_frontend project_)**
+
+- Creating the Project
+```
+npx create-react-app frontend
+```
+
+<br><br>
+
 > **React Icons (_frontend project_)**
 
 - Installing
