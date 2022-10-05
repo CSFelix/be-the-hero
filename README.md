@@ -22,7 +22,7 @@
 * Insomnia
 * React;
 * Reack-Native;
-* SQLite
+
 
 ----
 <br>
